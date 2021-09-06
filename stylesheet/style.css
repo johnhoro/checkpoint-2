@@ -179,8 +179,6 @@ table {
   top: 0px;
 } */
 .header {
-  position: sticky;
-  top: 0px;
   margin-left: 150px;
   background-color: white;
 }
@@ -233,12 +231,10 @@ hr {
   text-align: center;
 }
 .circle-box {
-  /* text-align: center; */
   display: inline-block;
   border-radius: 50%;
   width: 10px;
   height: 10px;
-  background-color: yellowgreen;
 }
 .circle-1 {
   background-color: #191919;
@@ -550,4 +546,26 @@ h4 {
 }
 .gallery-img {
   display: flex;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  margin-top: 100px;
+}
+
+.header {
+  border-bottom: 3px solid gray;
+}
+
+.header-section {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.article-1 {
+  margin-top: 45%;
 }
